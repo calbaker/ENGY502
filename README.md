@@ -12,8 +12,9 @@ Code)](https://code.visualstudio.com/).  Install VS Code, and add the following 
 
 ### Python Installation
 You can install Python in either of two ways:
-- [Anaconda Python Distribution](https://www.anaconda.com/download/) -- this seems to work better on
-  Windows
+- [Anaconda Python Distribution](https://www.anaconda.com/download/) or
+  [Miniconda](https://docs.anaconda.com/free/miniconda/index.html) -- Anaconda/Miniconda seems to
+  work better on Windows
 - [Python 3.10](https://www.python.org/downloads/release/python-31011/) -- this works pretty well on
   Mac.  For Mac or Windows, click the link to obtain an appropriate installer.  For Mac, if you have
   [Homebrew](https://brew.sh/), you can instead use `brew install python3.10`.  For linux, run `sudo
@@ -21,20 +22,18 @@ You can install Python in either of two ways:
   distribution.  
 
 ## Setting up your local environment
-1. Place the project folder containing this readme anywhere you like (e.g. `c:\Users\<your
-   username>\Documents\ENGY502\fastsim-hw\`)
+1. Place the project folder containing this readme anywhere you like (e.g. `c:\Users\<your username>\Documents\ENGY502\fastsim-hw\`)
 1. Within the project folder you created above, create and activate a python enviroment (make sure
    to be consistent with the method you used to install python above):
     - Anaconda
-        1. Open Anaconda Powershell Prompt or your Mac/linux terminal and run `conda create
-           --name=engy502-env --path=. python=3.10`
+        1. Open Anaconda Powershell Prompt or your Mac/linux terminal and run `conda create --name=engy502-env python=3.10`
         1. Activate the environment: `conda activate engy502-env`
-        1. Install the dependencies: `conda install py-requirements.txt`
-        1. After finishing this assigment, you can delete the environment with `conda env remove
-           --name engy502-env` from within the same folder
+        1. Install the dependencies: `pip install -r requirements.txt`
+        1. After finishing this assigment, you can delete the environment with `conda env remove --name engy502-env` from within the same folder
     - Python3.10
         1. Open your preferred terminal environment, and run `python3.10 -m venv engy502-env`
-        1. Run `source engy502-env/bin/activate` to activate the enviroment
+        1. Run `source engy502-env/bin/activate` (may differ on Windows) to activate the enviroment
+        1. Install dependencies: `pip install -r requirements.txt`
         1. After finishing this assignment, run `rm -rf engy502-env` to remove the enviroment
 
 ## Running the example 
