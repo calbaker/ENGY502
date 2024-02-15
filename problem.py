@@ -1,11 +1,11 @@
 # %%
 # imports
 
-# import fastsim
+import fastsim as fsim
 
 # build SimDriveLabel object for battery electric vehicle (BEV)
-
-# find optimum battery and motor size subject to 0-60 mph constraint of 10 s and a fixed cost + linear cost per energy and power, respectively
+veh = fsim.vehicle.Vehicle.from_vehdb(43).to_rust()
+assert veh.scenario_name == "2022 Tesla Model 3 RWD", "Loaded the wrong vehicle."
 
 ## Via plotting
 

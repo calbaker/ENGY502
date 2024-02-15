@@ -42,3 +42,5 @@ local environment](#setting-up-your-local-environment)).  Open [example.py](exam
 tab.  Click on the first line, and type `<Ctrl>+<Shift>+P` (`<Cmd>+<Shift>+P` on Mac) then type
 `jupyter: run all cells` to run all of the notebook cells (marked by `# %%`) in an interactive
 terminal.
+
+## [Homework Problem](./problem.md)
