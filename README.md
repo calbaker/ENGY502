@@ -5,7 +5,7 @@ Example and homework problem involving fastsim.
 ### Code Editor
 The example code should be able to run in any major code editing software (e.g. Visual Studio Code,
 Spyder, PyCharm), but NREL recommends [Visual Studio Code (VS
-Code)](https://code.visualstudio.com/).  Install VS Code, and add the following plugins:
+Code)](https://code.visualstudio.com/).  Install VS Code, and optionally add the following recommended plugins:
 - [Python](https://marketplace.visualstudio.com/items?itemName=ms-python.python)
 - [Jupyter](https://marketplace.visualstudio.com/items?itemName=ms-toolsai.jupyter)
 - [PyLance](https://marketplace.visualstudio.com/items?itemName=ms-python.vscode-pylance)
@@ -14,7 +14,8 @@ Code)](https://code.visualstudio.com/).  Install VS Code, and add the following 
 You can install Python in either of two ways:
 - [Anaconda Python Distribution](https://www.anaconda.com/download/) or
   [Miniconda](https://docs.anaconda.com/free/miniconda/index.html) -- Anaconda/Miniconda seems to
-  work better on Windows
+  work better on Windows.  This will likely install Python 3.12, but that's ok -- when you [create
+  the Anaconda virtual environment](#setting-up-your-local-environment), it will be Python 3.10.
 - [Python 3.10](https://www.python.org/downloads/release/python-31011/) -- this works pretty well on
   Mac.  For Mac or Windows, click the link to obtain an appropriate installer.  For Mac, if you have
   [Homebrew](https://brew.sh/), you can instead use `brew install python3.10`.  For linux, run `sudo
