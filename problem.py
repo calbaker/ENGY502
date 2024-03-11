@@ -205,8 +205,8 @@ print('\n')
 print("*"*25)
 print("Conditions that minimize 5 year operating cost while")
 print(f"...keeping 0-60 mph time under {max_zero_to_sixty} s:")
-print(f"  - optimized motor power [kW]: {opt_mc_max_kw}")
-print(f"  - optimized battery capacity [kW-hr]: {opt_ess_max_kwh}")
+print(f"  - optimized motor power [kW]: {opt_mc_max_kw:.4g}")
+print(f"  - optimized battery capacity [kW-hr]: {opt_ess_max_kwh:.4g}")
 print("Note that the results agree reasonably well with the plots.")
 
 # Open-ended question: what are pros/cons of using plotting compared to scipy optimize?
