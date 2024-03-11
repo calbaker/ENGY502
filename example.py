@@ -49,7 +49,7 @@ def obj_fun(fc_max_kw: float) -> float:
         fc_max_kw (float): engine peak power
 
     Returns:
-        float: annual operating cost
+        float: 5-year operating cost
     """
 
     mpg = get_vehicle_metrics(fc_max_kw)[0]

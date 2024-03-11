@@ -9,9 +9,9 @@ Use [NREL's FASTSim](https://github.com/NREL/fastsim) to find optimum battery an
 
 ### Hints about manipulating parameters
 The parameters you'll need to manipulate are 
--`mc_max_kw` (motor peak power), https://docs.rs/fastsim-core/latest/fastsim_core/vehicle/struct.RustVehicle.html#structfield.mc_max_kw
--`ess_max_kw` (battery peak power), https://docs.rs/fastsim-core/latest/fastsim_core/vehicle/struct.RustVehicle.html?search=ess_max_kwh#structfield.ess_max_kw
--`ess_max_kwh` (battery energy capacity), https://docs.rs/fastsim-core/latest/fastsim_core/vehicle/struct.RustVehicle.html#structfield.ess_max_kwh
+- `mc_max_kw` (motor peak power), https://docs.rs/fastsim-core/latest/fastsim_core/vehicle/struct.RustVehicle.html#structfield.mc_max_kw
+- `ess_max_kw` (battery peak power), https://docs.rs/fastsim-core/latest/fastsim_core/vehicle/struct.RustVehicle.html?search=ess_max_kwh#structfield.ess_max_kw
+- `ess_max_kwh` (battery energy capacity), https://docs.rs/fastsim-core/latest/fastsim_core/vehicle/struct.RustVehicle.html#structfield.ess_max_kwh
 
 I encourage you to explore the documentation and ask questions!
 
@@ -37,5 +37,3 @@ You can assume the following:
 - electricity costs $0.12/kW-hr
 - motor/battery power is $5/kW-hr
 - the vehicle is driven 15,000 miles per year
-
-
